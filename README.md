@@ -1,12 +1,16 @@
-# PB-PaldoBobusang
+<div align="center">
+
+![logo](/readme/logo.png "logo")
+
+</div>
 
 ## 1. 프로젝트 소개
-제철 농산물 정보 제공 플랫폼
+제철 농산물 및 최근 가격 동향 정보 제공 플랫폼
 
 ## 2. 팀원 소개 및 담당 역할 or 기능
-- 이종수 : 노예1 / Agri-Map 페이지에서 .svg 파일을 이용한 지도 구현
-- 이동찬 : 노예2 / 백엔드 MySQL DB 설정
-- 김현수 : 노예3 / Map 과 List 페이지의 Details 페이지 구현 (가격 차트, 상세정보 등)
+- 이종수 : :earth_asia: Map 페이지에서 .svg 파일을 이용한 지도 및 :art: CSS 구현
+- 이동찬 : :leaves: Spring JPA 백엔드 및 MySQL DB 구현
+- 김현수 : :bookmark_tabs: List 페이지 및 Modal 기능과 Details 페이지 구현 (상세정보, :chart_with_upwards_trend: 가격 차트)
 
 ## 3. Information Architecture
 ![Information Architecture](/readme/information_architecture.png "Information Architecture")
@@ -21,6 +25,10 @@
 ## 5. 테이블 구조도
 ![Table Architecture](/readme/table_architecture.png "Table Architecture")
 
+[DB insert 쿼리문 작업 시트](https://docs.google.com/spreadsheets/d/1u5HhRLfmrG2ChYXGZXxlrg7YifOa5R4jUWCMqOSI3w8/edit?usp=sharing)
+
+[지역별 대표 농산물 작업 시트](https://docs.google.com/spreadsheets/d/1bLq68LJuqe4RVTJ63avBkxnJwv4Ko3sdniyR3etab3s/edit?usp=sharing)
+
 ## 6. 서비스 아키텍처
 ![Service Architecture](/readme/service_architecture.png "Service Architecture")
 
@@ -34,6 +42,14 @@
 [https://documenter.getpostman.com/view/23095082/2s7ZLhnWb8](https://documenter.getpostman.com/view/23095082/2s7ZLhnWb8)
 
 ## 9. 컨벤션 or 진행 간 규칙
-![ESLint](/readme/eslint.png "ESLint")
+  # Git
+- git을 기능별로 나누고, 구현한 사람을 기준으로 branch를 생성
+- git에 pull 할 시에 --rebase 옵션 사용
+- 각자 개인 branch에 push 하고 pull request를 통해 상위 branch에 동기화한다.
+
 ![Github Branches](/readme/github_branches.png "Github Branches")
 
+## 10. 느낀점
+- 김현수 : 초반에 팀원들이 기본 틀을 닦아주어 빠르게 적응할 수 있어서 팀원들한테 감사했습니다. 또 여러 문제들을 서로 도와가며 해결하는 과정이 어려웠지만 그만큼 느낀 점도 많은 프로젝트였습니다. 넘나 어려운 것...
+- 이동찬 : 의견이 엇갈려도 서로 이해해주는 팀원들과 작업할수 있어서 너무 좋았습니다. 코딩한시간이랑 DB에 저장할 데이터 조사하는 시간이랑 비슷하게 쓴거같습니다...:sob: 그래도 프로젝트 하면서 많이 배웠고 뜻깊은 시간이었습니다.
+- 이종수 : 팀원들에게 정확한 DB와 비전을 갖고있다는 말로 팀원들을 모았지만, 사실 중간에 DB가 틀어지면서 팀원들이 많은 발품을 팔게 되었습니다;;; 세상일이 뜻하는 대로 되지 않더라구요;;; 프로젝트 시작하기 2주전부터 잠을 줄여가면서 하얗게 불태웠더니, 속이 후련합니다;;; 대부분의 기능들을 완성했지만, 아직 부족한 부분들이 많이 남아서 프로젝트 발표가 끝난 이후에도 지속적으로 개발하도록 하겠습니다. 팀원분들께 다시 한번 고맙고 죄송하다고 전하고 싶습니다ㅠㅠ
