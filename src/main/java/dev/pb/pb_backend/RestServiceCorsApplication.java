@@ -19,6 +19,8 @@ public class RestServiceCorsApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**").allowedOrigins("https://pablobobusang.herokuapp.com/");
+                registry.addMapping("/**").allowedOrigins("https://paldobobusang-fe.herokuapp.com/");
+                
             }
         };
     }
